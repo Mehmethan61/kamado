@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #F8FAFC;
+    color: #334155;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #111827;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #222222;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #EA580C;
+}
+
+/* Footer */
+.site-footer {
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Knoppen en foto-plekken */
+.knop {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1E3A8A;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.knop:hover {
+    background-color: #111827;
+}
+
+.knop.oranje {
+    background-color: #EA580C;
+}
+
+.knop.oranje:hover {
+    background-color: #C2410C;
+}
+
+.foto-plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+    background-color: #E2E8F0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    padding: 30px;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.hero .foto-plek {
+    min-height: 260px;
+    margin-bottom: 24px;
+}
+
+/* Over Kamado Breda */
+.over {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.over .foto-plek {
+    flex: 1;
+    min-height: 260px;
+}
+
+.over-tekst {
+    flex: 1;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Drie kaarten */
+.voordelen {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.kaart {
+    flex: 1;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Oproep naar masterclasses */
+.oproep {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+    background-color: #E2E8F0;
+    border-radius: 8px;
+}
+
+/* Kleine schermen */
+@media (max-width: 700px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3,
+    .logo,
+    .menu a {
+        font-size: 16px;
+    }
+
+    .site-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+
+    .menu {
+        gap: 16px;
+    }
+
+    .over,
+    .voordelen,
+    .oproep {
+        flex-direction: column;
+    }
+}
