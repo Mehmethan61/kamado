@@ -52,6 +52,12 @@ main {
     text-decoration: none;
 }
 
+.logo img {
+    display: block;
+    height: 64px;
+    width: auto;
+}
+
 .menu {
     display: flex;
     gap: 30px;
@@ -131,6 +137,13 @@ main {
     margin-bottom: 24px;
 }
 
+.hero-foto {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
 /* Over Kamado Breda */
 .over {
     display: flex;
@@ -204,6 +217,10 @@ main {
         flex-direction: column;
         gap: 12px;
         padding: 16px;
+    }
+
+    .logo img {
+        height: 52px;
     }
 
     .menu {
