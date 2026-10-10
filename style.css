@@ -252,6 +252,54 @@ main {
     margin-bottom: 12px;
 }
 
+/* Masterclasses */
+.twee-kolommen {
+    display: flex;
+    gap: 24px;
+}
+
+.kolom {
+    flex: 1;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.kolom .foto-plek {
+    min-height: 220px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #111827;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 90px;
+}
+
+form .knop {
+    width: 100%;
+    margin-top: 20px;
+}
+
 /* Kleine schermen */
 @media (max-width: 700px) {
     body {
@@ -290,7 +338,8 @@ main {
     .voordelen,
     .oproep,
     .product,
-    .kaarten {
+    .kaarten,
+    .twee-kolommen {
         flex-direction: column;
     }
 }

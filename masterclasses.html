@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterclasses | Kamado Breda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html"><img src="img/logo.png" alt="Kamado Breda logo"></a>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="onze-kamados.html">Onze Kamado's</a>
+            <a href="masterclasses.html">Masterclasses</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Word een Echte Pitmaster!</h1>
+            <p>Volg een exclusieve barbecue-masterclass van Joris in Breda.</p>
+        </section>
+
+        <section class="twee-kolommen">
+            <div class="kolom">
+                <h2>Wat ga je leren?</h2>
+                <ul>
+                    <li>Temperatuurbeheersing (Low &amp; Slow)</li>
+                    <li>Direct vs. indirect grillen</li>
+                    <li>Roken met houtsnippers en chunks</li>
+                    <li>Vlees-, vis- en vegetarische bereiding</li>
+                    <li>Onderhoud van je blauwe Kamado</li>
+                </ul>
+
+                <h2>Praktische Informatie:</h2>
+                <p>Duur: 4 uur (incl. proeverij &amp; drank)</p>
+                <p>Locatie: Kamado Breda binnentuin</p>
+                <p>Kosten: &euro; 95,- per persoon</p>
+
+                <div class="foto-plek">[ Sfeerfoto Masterclass ]</div>
+            </div>
+
+            <div class="kolom">
+                <h2>Inschrijfformulier</h2>
+                <p>Meld je direct aan voor de workshop.</p>
+                <form method="post">
+                    <label for="naam">Naam en Achternaam:</label>
+                    <input type="text" id="naam" name="naam" placeholder="Bijv. Jan Jansen">
+
+                    <label for="email">E-mailadres:</label>
+                    <input type="email" id="email" name="email" placeholder="naam@voorbeeld.nl">
+
+                    <label for="telefoon">Telefoonnummer:</label>
+                    <input type="text" id="telefoon" name="telefoon" placeholder="06 12345678">
+
+                    <label for="datum">Kies een datum:</label>
+                    <select id="datum" name="datum">
+                        <option>Zaterdag 14 November 2026 (13:00)</option>
+                        <option>Zaterdag 12 December 2026 (13:00)</option>
+                    </select>
+
+                    <label for="personen">Aantal personen:</label>
+                    <select id="personen" name="personen">
+                        <option>1 Persoon</option>
+                        <option>2 Personen</option>
+                        <option>3 Personen</option>
+                        <option>4 Personen</option>
+                    </select>
+
+                    <label for="opmerkingen">Opmerkingen of dieetwensen:</label>
+                    <textarea id="opmerkingen" name="opmerkingen" placeholder="Bijv. allergieën..."></textarea>
+
+                    <button type="submit" class="knop oranje">Bevestig Inschrijving</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Kamado Breda - Alle rechten voorbehouden | Breda</p>
+    </footer>
+</body>
+</html>
