@@ -10,14 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <a class="logo" href="index.html"><img src="img/logo.png" alt="Kamado Breda logo"></a>
-        <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="onze-kamados.html">Onze Kamado's</a>
-            <a href="masterclasses.html">Masterclasses</a>
-        </nav>
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <main>
         <section class="hero">
@@ -80,8 +73,6 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 Kamado Breda - Alle rechten voorbehouden | Breda</p>
-    </footer>
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>

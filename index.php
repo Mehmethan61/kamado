@@ -10,20 +10,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <a class="logo" href="index.html"><img src="img/logo.png" alt="Kamado Breda logo"></a>
-        <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="onze-kamados.html">Onze Kamado's</a>
-            <a href="masterclasses.html">Masterclasses</a>
-        </nav>
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <main>
         <section class="hero">
             <img class="hero-foto" src="img/sfeerfoto.jpeg" alt="Joris voor zijn winkel Kamado Breda">
             <h1>Exclusieve blauwe Kamado barbecues in Breda</h1>
-            <a class="knop" href="onze-kamados.html">Bekijk Collectie</a>
+            <a class="knop" href="onze-kamados.php">Bekijk Collectie</a>
         </section>
 
         <section class="over">
@@ -55,12 +48,10 @@
                 <h2>Wil je leren grillen als een echte pitmaster?</h2>
                 <p>Schrijf je direct in voor onze aankomende workshops.</p>
             </div>
-            <a class="knop oranje" href="masterclasses.html">Naar Masterclasses</a>
+            <a class="knop oranje" href="masterclasses.php">Naar Masterclasses</a>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 Kamado Breda - Alle rechten voorbehouden | Breda</p>
-    </footer>
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
