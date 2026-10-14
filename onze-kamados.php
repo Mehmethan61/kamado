@@ -20,12 +20,12 @@
 
         <section class="product">
             <div class="galerij">
-                <div class="foto-plek groot">[ Grote afbeelding ]</div>
+                <img class="grote-foto" id="grote-foto" src="img/sfeerfoto.jpeg" alt="Kamado Pro - Blue Edition foto 1">
                 <div class="miniaturen">
-                    <div class="foto-plek">Foto 1</div>
-                    <div class="foto-plek">Foto 2</div>
-                    <div class="foto-plek">Foto 3</div>
-                    <div class="foto-plek">Foto 4</div>
+                    <img class="miniatuur actief" src="img/sfeerfoto.jpeg" alt="Kamado Pro - Blue Edition foto 1">
+                    <img class="miniatuur" src="img/logo.png" alt="Kamado Pro - Blue Edition foto 2">
+                    <img class="miniatuur" src="img/sfeerfoto.jpeg" alt="Kamado Pro - Blue Edition foto 3">
+                    <img class="miniatuur" src="img/logo.png" alt="Kamado Pro - Blue Edition foto 4">
                 </div>
             </div>
             <div class="product-info">
@@ -66,5 +66,7 @@
     </main>
 
     <?php include 'includes/footer.php'; ?>
+
+    <script src="script.js"></script>
 </body>
 </html>
