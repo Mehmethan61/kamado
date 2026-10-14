@@ -25,13 +25,11 @@
                     <li>Temperatuurbeheersing (Low &amp; Slow)</li>
                     <li>Direct vs. indirect grillen</li>
                     <li>Roken met houtsnippers en chunks</li>
-                    <li>Vlees-, vis- en vegetarische bereiding</li>
                     <li>Onderhoud van je blauwe Kamado</li>
                 </ul>
 
                 <h2>Praktische Informatie:</h2>
-                <p>Duur: 4 uur (incl. proeverij &amp; drank)</p>
-                <p>Locatie: Kamado Breda binnentuin</p>
+                <p>Duur: 4 uur</p>
                 <p>Kosten: &euro; 95,- per persoon</p>
 
                 <div class="foto-plek">[ Sfeerfoto Masterclass ]</div>
@@ -39,8 +37,7 @@
 
             <div class="kolom">
                 <h2>Inschrijfformulier</h2>
-                <p>Meld je direct aan voor de workshop.</p>
-                <form method="post">
+                <form action="bevestiging.php" method="post">
                     <label for="naam">Naam en Achternaam:</label>
                     <input type="text" id="naam" name="naam" placeholder="Bijv. Jan Jansen">
 
@@ -64,8 +61,8 @@
                         <option>4 Personen</option>
                     </select>
 
-                    <label for="opmerkingen">Opmerkingen of dieetwensen:</label>
-                    <textarea id="opmerkingen" name="opmerkingen" placeholder="Bijv. allergieën..."></textarea>
+                    <label for="opmerkingen">Opmerkingen:</label>
+                    <textarea id="opmerkingen" name="opmerkingen"></textarea>
 
                     <button type="submit" class="knop oranje">Bevestig Inschrijving</button>
                 </form>

@@ -46,7 +46,7 @@
         <section class="oproep">
             <div>
                 <h2>Wil je leren grillen als een echte pitmaster?</h2>
-                <p>Schrijf je direct in voor onze aankomende workshops.</p>
+                <p>Schrijf je direct in voor onze aankomende masterclasses.</p>
             </div>
             <a class="knop oranje" href="masterclasses.php">Naar Masterclasses</a>
         </section>

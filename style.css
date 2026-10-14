@@ -293,6 +293,7 @@ form textarea {
 
 form textarea {
     height: 90px;
+    resize: none;
 }
 
 form .knop {

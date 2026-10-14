@@ -36,9 +36,7 @@
                 <ul>
                     <li>Diameter rooster: 47 cm</li>
                     <li>Gietijzeren topventilatie</li>
-                    <li>Levenslange garantie</li>
                 </ul>
-                <a class="knop" href="#">Bestel / Informatie Aanvragen</a>
             </div>
         </section>
 
@@ -50,21 +48,18 @@
                     <h3>Kamado Compact Blue</h3>
                     <p>Voor tuin &amp; balkon</p>
                     <p class="prijs">&euro; 699,-</p>
-                    <a class="knop" href="#">Bekijk Details</a>
                 </div>
                 <div class="kaart">
                     <div class="foto-plek">[ Productfoto ]</div>
                     <h3>Kamado XL Pitmaster</h3>
                     <p>Voor catering &amp; feesten</p>
                     <p class="prijs">&euro; 1.799,-</p>
-                    <a class="knop" href="#">Bekijk Details</a>
                 </div>
                 <div class="kaart">
                     <div class="foto-plek">[ Productfoto ]</div>
                     <h3>Gietijzeren Rooster Set</h3>
                     <p>Perfecte grillstrepen</p>
                     <p class="prijs">&euro; 89,-</p>
-                    <a class="knop" href="#">Bekijk Details</a>
                 </div>
             </div>
         </section>
