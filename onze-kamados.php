@@ -47,7 +47,7 @@
                     <img class="kaart-foto" src="img/kamado-compact.jpg" alt="Kamado Compact Blue">
                     <h3>Kamado Compact Blue</h3>
                     <p>Voor tuin &amp; balkon</p>
-                    <p class="prijs">&euro; 699,-</p>
+                    <p class="prijs">&euro; 279,-</p>
                 </div>
                 <div class="kaart">
                     <img class="kaart-foto" src="img/kamado-xl.jpg" alt="Kamado XL Pitmaster">

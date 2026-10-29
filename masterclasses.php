@@ -48,10 +48,7 @@
                     <input type="text" id="telefoon" name="telefoon" placeholder="06 12345678">
 
                     <label for="datum">Kies een datum:</label>
-                    <select id="datum" name="datum">
-                        <option>Zaterdag 14 November 2026 (13:00)</option>
-                        <option>Zaterdag 12 December 2026 (13:00)</option>
-                    </select>
+                    <input type="date" id="datum" name="datum">
 
                     <label for="personen">Aantal personen:</label>
                     <select id="personen" name="personen">
