@@ -20,7 +20,7 @@
         </section>
 
         <section class="over">
-            <div class="foto-plek">[ Foto: Joris voor winkel ]</div>
+            <img class="over-foto" src="img/kamado-1.jpg" alt="Blauwe Kamado van Kamado Breda">
             <div class="over-tekst">
                 <h2>Over Kamado Breda</h2>
                 <p>Joris is onlangs gestart met zijn speciaalzaak in Breda met exclusieve blauwe Kamado's en gietijzeren accessoires.</p>

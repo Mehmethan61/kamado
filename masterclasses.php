@@ -32,7 +32,7 @@
                 <p>Duur: 4 uur</p>
                 <p>Kosten: &euro; 95,- per persoon</p>
 
-                <div class="foto-plek">[ Sfeerfoto Masterclass ]</div>
+                <img class="masterclass-foto" src="img/masterclass.jpg" alt="Barbecue masterclass">
             </div>
 
             <div class="kolom">
